@@ -1,0 +1,16 @@
+header {
+    background-color: rgb(89, 0, 124);
+    width: 100%;
+    height: 62px;
+}
+
+mat-toolbar {
+    background-color: transparent;
+    color: #FFF;
+
+    height: 62px;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
