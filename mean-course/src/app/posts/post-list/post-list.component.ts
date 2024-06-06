@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
+import { PostProps } from "../post.model";
 
 @Component({
     selector: "app-post-list",
@@ -12,5 +13,5 @@ export class PostList {
     //     {title:"Third Post", content: "this is the third post's content"}
     // ]
 
-    posts = [];
+    @Input() posts: PostProps[] = [];
 }

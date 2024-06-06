@@ -11,3 +11,14 @@ mat-form-field, textarea {
 textarea {
     resize: none;
 }
+
+mat-form-field label {
+    color:rgb(131, 131, 131);
+    font-style:italic;
+    font-size: 14px;
+    letter-spacing: 4px;
+}
+
+button.btn {
+    background-color: rgb(89, 0, 124);
+}
