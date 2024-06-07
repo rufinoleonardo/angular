@@ -15,6 +15,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { PostList } from './posts/post-list/post-list.component';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { PostsService } from './posts/post.service';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { MatExpansionModule } from '@angular/material/expansion';
     MatInputModule, MatCardModule, MatButtonModule, MatToolbarModule, MatExpansionModule
   ],
   providers: [
-    provideAnimationsAsync()
+    provideAnimationsAsync(),
+    PostsService
   ],
   bootstrap: [AppComponent]
 })
